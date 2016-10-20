@@ -1,4 +1,43 @@
-﻿@{
-    ViewBag.Title = "Ditt Studieschema";
+﻿
+@{
+    ViewBag.Title = "Index";
 }
 
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Calendar | by Valeriu Timbuc for DesignModo</title>
+
+    <link rel="stylesheet" href="css/calendar.css" media="screen">
+
+
+    <meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+
+    <img src="img/title.png" alt="">
+
+    <div id="calendar"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/jquery-ui-datepicker.min.js"></script>
+    <script>
+        $('#calendar').datepicker({
+            inline: true,
+            firstDay: 1,
+            showOtherMonths: true,
+            dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+        });
+    </script>
+
+    <div class="footer"><p>By <a href="http://vtimbuc.net/">Valeriu Timbuc</a> for <a href="http://designmodo.com">DesignModo</a>.</p></div>
+
+</body>
+
+</html>
