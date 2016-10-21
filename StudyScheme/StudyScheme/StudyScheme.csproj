@@ -182,6 +182,11 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\calendar.css" />
+    <Content Include="Content\img\arrows.png" />
+    <Content Include="Content\img\bg.png" />
+    <Content Include="Content\img\title.png" />
+    <Content Include="Content\js\jquery-ui-datepicker.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

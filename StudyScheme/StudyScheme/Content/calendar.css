@@ -62,7 +62,7 @@
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5cd4e), color-stop(100%,#6b8f1a));
 	background: -webkit-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
 	background: -o-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
-	background: -ms-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+
 	background: linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
 
 	-webkit-border-radius: 5px;
@@ -102,7 +102,7 @@
 	height: 10px;
 	text-indent: -9999px;
 
-	background-image: url(../img/arrows.png);
+	background-image: url(img/arrows.png);
 }
 
 .ui-datepicker-prev span { background-position: 0px 0px; }
