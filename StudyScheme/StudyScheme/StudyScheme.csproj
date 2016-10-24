@@ -180,6 +180,10 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnet-StudyScheme-20161020035143.mdf" />
+    <Content Include="App_Data\aspnet-StudyScheme-20161020035143_log.ldf">
+      <DependentUpon>aspnet-StudyScheme-20161020035143.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Data\StudyDb.mdf" />
     <Content Include="App_Data\StudyDb_log.ldf">
       <DependentUpon>StudyDb.mdf</DependentUpon>
