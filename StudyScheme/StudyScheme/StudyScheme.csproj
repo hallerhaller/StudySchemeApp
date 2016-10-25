@@ -176,8 +176,44 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AspNetRoles.cs">
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AspNetUserClaims.cs">
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AspNetUserLogins.cs">
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AspNetUsers.cs">
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CourseInformation.cs">
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\C__MigrationHistory.cs">
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Event.cs">
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\StudySchemeModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudySchemeModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StudySchemeModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudySchemeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StudySchemeModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudySchemeModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -257,6 +293,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\StudySchemeModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudySchemeModel.edmx</DependentUpon>
+      <LastGenOutput>StudySchemeModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\StudySchemeModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudySchemeModel.edmx</DependentUpon>
+      <LastGenOutput>StudySchemeModel.cs</LastGenOutput>
+    </Content>
     <Content Include="obj\Debug\StudyScheme.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\StudyScheme.dll" />
     <Content Include="obj\Debug\StudyScheme.pdb" />
@@ -268,6 +314,13 @@
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="bin\StudyScheme.dll.config" />
+    <EntityDeploy Include="Models\StudySchemeModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StudySchemeModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\StudySchemeModel.edmx.diagram">
+      <DependentUpon>StudySchemeModel.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

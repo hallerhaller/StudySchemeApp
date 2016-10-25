@@ -66,12 +66,12 @@ namespace StudyScheme.Models
     {
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 2)]
-        [Display(Name = "Firstname")]
+        [Display(Name = "FirstName")]
         public string FirstName { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 2)]
-        [Display(Name = "Lastname")]
+        [Display(Name = "LastName")]
         public string LastName { get; set; }
 
 
